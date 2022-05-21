@@ -27,10 +27,7 @@ public class Employee {
 
 	}
 	
-	private void empAddress() {
-		System.out.println("no,7 thoraipakkam chennai 632513");
-
-	}
+	
 	public static void main(String[] args) {
 		Employee my= new Employee();
 		
@@ -38,7 +35,6 @@ public class Employee {
 	my.empName();
 	my.empPhone();
 	my.empDob();
-	my.empAddress();
 	my.empEmail();
 		
 	}
